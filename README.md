@@ -15,14 +15,15 @@ Upload an MP4 to the <code>lunar_videos</code> folder and run the <code>Lunar_Po
 Earth-based astrophotography suffers from equipment jitter and atmospheric turbulence.
 <br><br>
 
-<div align="center">
+<p align="center">
   <details>
     <summary>Lunar Drift Clip</summary>
 
-    <video src="https://github.com/user-attachments/assets/7eddcd9b-866b-478b-80d4-7e7400f57a8e" controls width="100%"></video>
+  <video src="https://github.com/user-attachments/assets/7eddcd9b-866b-478b-80d4-7e7400f57a8e"></video>
 
   </details>
-</div>
+  
+</p>
 <br>
 
 The first step in solving this challenge is frame alignment. 
