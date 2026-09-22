@@ -219,3 +219,6 @@ __marimo__/
 
 # Mac
 .DS_Store
+
+# Jupyter
+.ipynb_checkpoints

@@ -31,27 +31,27 @@ To align frames properly, a crater reference map has been developed from a refer
 <br><br>
 
 <p align="center">
-  <img src="assets/images/crater_reference_map.png" width="500" alt="Crater Reference Map">
+  <img src=".assets/images/crater_reference_map.png" width="500" alt="Crater Reference Map">
 </p>
 
 To align with the crater reference map, Meta's lightweight ViT-B Segment Anything Model (SAM) is applied to segment the lit portion of the Moon in each video frame, as well as the reference mosaic. Captured frames are then rescaled through RANSAC circle fitting.
 <br><br>
 
 <p align="center">
-  <img src="assets/images/lunar_pipeline_1x3.png" width="600" alt="Lunar Pipeline">
+  <img src=".assets/images/lunar_pipeline_1x3.png" width="600" alt="Lunar Pipeline">
 </p>
 
 Starting at the center of the lit portion of the moon in the sharpest captured frame, craters are detected using Laplacian-of-Gaussian Blob Detection (LoG). Detection is hypertuned for optimal alignment based on the n-closest craters, crater diameter, and crater magnification. Finally, captured frames are fine tuned through rotation.
 <br><br>
 
 <p align="center">
-  <img src="assets/images/centroid_based_alignment.png" width="800" alt="Centroid-Based Alignment">
+  <img src=".assets/images/centroid_based_alignment.png" width="800" alt="Centroid-Based Alignment">
 </p>
 
 Resulting in a crisp, ultra-sharp image of the moon!
 <br>
 <p align="center">
-  <img src="assets/images/median_moon_composite.png" width="400" alt="Median Moon Composite">
+  <img src=".assets/images/median_moon_composite.png" width="400" alt="Median Moon Composite">
 </p>
 <br>
 
@@ -64,7 +64,7 @@ Resulting in a crisp, ultra-sharp image of the moon!
 
 ## Project Architecture
 <p align="center">
-  <img src="assets/images/project_architecture.png" width="300" alt="Project Architecture">
+  <img src=".assets/images/project_architecture.png" width="300" alt="Project Architecture">
 </p>
 
 <br>
