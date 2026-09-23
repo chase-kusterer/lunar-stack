@@ -8,7 +8,7 @@ This project innovates in its approach to lunar astrophotography through advance
 <br><br>
 
 ## Quick Start
-Upload an MP4 to the <code>lunar_videos</code> folder and run the <code>Lunar_Post_Capture</code> notebook. A sample lunar video has been provided in case you don't have a lunar video on hand. Once processed, stacked images will be available in the <code>stacks</code> folder. Artifacts can be found in the <code>lunar_stack_artifacts</code> folder.
+Upload a video to the <code>lunar_videos</code> folder and run the <code>Lunar_Post_Capture</code> notebook. A sample lunar video has been provided in case you don't have a lunar video on hand. Once processed, stacked images will be available in the <code>stacks</code> folder. Artifacts can be found in the <code>lunar_stack_artifacts</code> folder.
 <br><br>
 
 ## Project Walkthrough
