@@ -8,7 +8,7 @@ This project innovates in its approach to lunar astrophotography through advance
 <br><br>
 
 ## Quick Start
-Upload a video to the <code>lunar_videos</code> folder and run the <code>Lunar_Post_Capture</code> notebook. A sample lunar video has been provided in case you don't have a lunar video on hand. Once processed, stacked images will be available in the <code>stacks</code> folder. Artifacts can be found in the <code>lunar_stack_artifacts</code> folder.
+Upload an MP4 to the <code>lunar_videos</code> folder and run the <code>Lunar_Post_Capture</code> notebook. A sample lunar video has been provided in case you don't have a lunar video on hand. Once processed, stacked images will be available in the <code>stacks</code> folder. Artifacts can be found in the <code>lunar_stack_artifacts</code> folder.
 <br><br>
 
 ## Project Walkthrough
@@ -17,9 +17,7 @@ Earth-based astrophotography suffers from equipment jitter and atmospheric turbu
 
 <p align="center">
   <details>
-    <summary>Lunar Drift Clip
-      (<a href=".assets/images/lunar_drift.mp4">download</a>)
-    </summary>
+    <summary>Lunar Drift Clip</summary>
 
   <video src="https://github.com/user-attachments/assets/7eddcd9b-866b-478b-80d4-7e7400f57a8e"></video>
 
